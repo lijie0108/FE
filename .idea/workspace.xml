@@ -2,264 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff9408c-266b-4b09-b282-741a8baf3eeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/44.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/55.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/66.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/ECMAScript 6入门/ECMAScript6入门.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/React快速上手开发.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react-dom-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react-dom-server.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react-dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react-dom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react-with-addons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react-with-addons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/build/react.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap01/ex1-hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap01/ex2-class-for-style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex1-创建组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex2-组件属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex3-propTypes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex4-默认属性值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex5-带状态的文本框组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex6-使用事件委托.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex7-输出日志记录.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/01-Comment-Your-JavaScript-Code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/02-Declare-JavaScript-Variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/03-Storing-Values-with-the-Assignment-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/04-Initializing-Variables-With-the-Assignment-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/05-Understanding-Uninitialized-Variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/06-Understanding-Case-Sensitivity-in-Variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/07-Add-Two-Numbers-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/08-Substract-one-Number-from-Another-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/09-Multiply-Two-Numbers-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/10-Divide-One-Number-by-Another-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/100-Profile-LookUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/101-Generate-Random-Fractions-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/102-Generate-Random-Whole-Numbers-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/103-Generate-Random-Whole-Numbers-within-a-Range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/104-Use-the-parseInt-Function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/105-Use-the-parseInt-Function-with-a-Radix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/106-Use-the-Conditional-Ternary-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/107-Use-Multiple-Conditional-Ternary-Operators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/108-Use-Recursion-to-Create-a-Countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/109-Use-Recursion-to-Create-a-Range-of-Numbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/11-Increment-a-Number-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/12-Decrement-a-Number-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/13-Create-Decimal-Numbers-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/14-Multiply-Two-Decimals-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/15-Divide-One-Decimal-by-another-with-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/16-Finding-a-Remainder-in-JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/17-Compound-Assignment-With-Augmented-Addition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/18-Compound-Assignment-With-Augmented-Subtraction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/19-Compound-Assignment-With-Augmented-Multiplication.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/20-Compound-Assignment-With-Augmented-Division.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/21-Declare-String-Variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/22-Escaping-literal-Quotes-in-Strings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/23-Quoting-Strings-with-Single-Quotes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/24-Escape-Sequences-in-Strings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/25-Concatenating-Strings-with-Plus-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/26-Concatenating-Strings-with-the-Plus-Equals-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/27-Constructing-Strings-with-Variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/28-Appending-Variables-to-Strings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/29-Find-the-Length-of-a-String.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/30-Use-Bracket-Notation-to-Find-the-First-Character-in-a-String.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/31-Understand-String-Immutability.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/32-Use-Bracket-Notation-to-Find-the-Nth-Character-in-a-String.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/33-Use-Bracket-Notation-to-Find-the-Last-Character-in-a-String.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/34-Use-Bracket-Notation-to-Find-the-Nth-to-Last-Character-in-a-String.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/35-Word-Blanks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/36-Store-Multiple-Values-in-one-Variable-using-JavaScript-Arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/37-Nest-one-Array-within-Another-Array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/38-Access-Array-Data-with-Indexes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/39-Modify-Array-Data-With-Indexes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/40-Access-Multi-Dimensional-Arrays-With-Indexes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/41-Manipulate-Arrays-With-push().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/42-Manipulate-Arrays-With-pop().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/43-Manipulate-Arrays-With-shift().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/44-Manipulate-Arrays-With-unshift().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/45-Shopping-List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/46-Write-Reusable-JavaScript-with-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/47-Passing-Values-to-Functions-with-Arguments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/48-Global-Scope-and-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/49-Local-Scope-and-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/50-Global-vs.-Local-Scope-in-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/51-Return-a-Value-from-a-Function-with-Return.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/52-Understanding-Undefined-Value-returned-from-a-Function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/53-Assigment-with-a-Returned-Value.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/54-Stand-in-Line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/55-Understanding-Boolean-Values.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/56-Use-Conditional-Logic-with-If-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/57-Comparison-with-the-Equality-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/58-Comparison-with-the-Strict-Equality-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/59-Practice-comparing-different-values.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/60-Comparison-with-the-Inequality-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/61-Comparison-with-the-Strict-Inequality-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/62-Comparison-with-the-Greater-Than-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/63-Comparison-with-the-Greater-Than-Or-Equal-To-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/64-Comparison-with-the-Less-Than-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/65-Comparison-with-the-Less-Than-Or-Equal-To-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/66-Comparisons-with-the-Logical-And-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/67-Comparisons-with-the-Logical-Or-Operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/68-Introducing-Else-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/69-Introducing-Else-If-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/70-Logical-Order-in-If-Else-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/71-Chaining-If-Else-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/72-Golf-Code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/73-Selecting-from-Many-Options-with-Switch-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/74-Adding-a-Default-Option-in-Switch-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/75-Multiple-Indentical-Options-in-Switch-Statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/76-Replacing-If-Else-Chains-with-Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/77-Returning-Boolean-Values-from-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/78-Return-Early-Pattern-for-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/79-Counting-Cards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/80-Build-JavaScript-Objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/81-Accessing-Object-Properties-with-Dot-Notation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/82-Accessing-Object-Properties-with-Bracket-Notation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/83-Accessing-Object-Properties-with-Variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/84-Updating-Object-Properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/85-Add-New-Properties-to-a-JavaScript-Object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/86-Delete-Properties-from-a-JavaScript-Object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/87-Using-Objects-for-Lookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/88-Testing-Objects-for-Properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/89-Manipulating-Complex-Objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/90-Accessing-Nested-Objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/91-Accessing-Nested-Arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/92-Record-Colleaction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/93-Iterate-with-JavaScript-While-Loops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/94-Iterate-with-JavaScript-For-Loops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/95-Iterate-Odd-Numbers-With-a-For-Loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/96-Iterate-Through-an-Array-with-a-For-Loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/97-Nesting-For-Loops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/98-Iterate-with-JavaScript-Do-While-Loops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/Basic-JavaScript/99-Replace-Loops-using-Recursion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/01-Introduction-to-the-ES6-Challenges.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/02-Explore-Differences-Between-the-var-and-let-Keywords.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/03-Compare-Scopes-of-the-var-and-let-Keywords.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/04-Declare-a-Read-Only-Variable-with-the-cosnt-keyword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/05-Mutate-an-Array-Declared-with-const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/06-Prevent-Object-Mutation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/07-Use-Arrow-Functions-to-Write-Concise-Anonymous-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/08-Write-Arrow-Functions-with-Parameters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/09-Set-Default-Parameters-for-Your-Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/10-Use-the-Rest-Parameter-with-Function-Parameters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/11-Use-the-Spread-Operator-toEvaluate-Arrays-In-Place.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/12-Use-Destructuring-Assignment-to-Extract-Values-from-Objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/13-Use-Destructuring-Assignment-to-Assign-Variable-from-Objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/14-Use-Destructuring-Assignment-to-Assign-Variables-from-Nested-Objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/15-Use-Destructuring-Assignment-to-Assign-Variables-from-Arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/16-Use-Destructuring-Assignment-with-the-Rest-Parameter-to-Reassign-Array-Elements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/17-Use-Destructuring-Assignment-to-Pass-an-Object-as-a-Function's-Parameters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/18-Create-Strings-using-Tempalte-Literals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/19-Write-Concise-Object-Literal-Declarations-Using-Object-Property-Shorthand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/20-Write-Concise-Declarative-Functions-with-ES6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/21-Use-calss-Syntax-to-Define-a-Constructor-Function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/22-Use-class-Syntax-to-Define-a-Constructor-Function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/23-Use-getters-setters-to-Control-Access-to-an-Object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/24-Create-a-Module-Script.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/25-Use-export-to-Share-a-Code-Block.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/26-Reuse-JavaScript-Code-Using-import.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp/JavaScript-Algorithms-and-Data-Structures-Certification/ES6/27-Use-to-Import-Everything-from-a-File.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get-award-master/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/example/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/example/双飞翼布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/example/圣杯布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/interview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day1/ex/ex1-语义标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day1/ex/ex2-html5浏览器支持.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day1/ex/ex3-video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day1/ex/ex4-audio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day1/ex/ex5-新增的表单控件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day1/ex/ex6-新增的表单属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day1/ex/ex7-input的list属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/HTML5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex1-获取页面元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex10-canvas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex2-类名操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex3-自定义属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex4-文件读取.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex5-css3实现轮播.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex6-网络状态.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex7-获取地理定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex8-本地存储.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day2/ex/ex9-HTML5音频和视频.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex-18魔方.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex1-背景background-origin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex10-其他选择器2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex11-线性渐变.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex12-径向渐变.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex13-2D转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex14-3D转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex15-过渡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex16-动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex17-伸缩布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex18-设置缩放比.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex2-背景background-clip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex3-背景background-size.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex4-边框border-radius.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex5-边框图片border-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex6-文字阴影text-shadow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex7-选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex8-结构伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/ex9-其他选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day3/ex/images/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex1-数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex2-对象的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex3-构造函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex4-构造函数的返回值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex5-为什么要有继承.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex6-继承的实现方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex7-原型链继承.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/ex8-原型链继承2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day4/ex/js高级.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex1-继承的第三种方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex10-闭包的应用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex11-函数调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex12-闭包内存释放.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex13-函数调用方式1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex14-函数调用方式2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex15-函数调用方式3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex16-函数调用方式3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex17-函数调用方式4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex18-call和apply的异同.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex19-上下文调用bind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex2-继承的第四种方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex3-继承的第五种方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex4-原型链.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex5-闭包.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex6-作用域链.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex7-闭包.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex8-认识闭包.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/ex/ex9-认识闭包2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day5/js高级.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day6/ex/ex1-模板字符串.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day6/ex/ex2-解构赋值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day6/ex/ex3-rest参数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day6/ex/ex4-箭头函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day6/ex/ex5-箭头函数的特点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/day6/原型链.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/know/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/know/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/know/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/know/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/know/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/lib/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/lib/jquery.magnify-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz/lib/magnify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex10-避免组件更新.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex11-PureRenderMixin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex8-使用mixin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex9-使用子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex1-构造数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex2-表头循环.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex3-消除控制台的警告信息.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex4-添加td内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex5-排序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex6-排序的视觉提示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex7-编辑数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex8-搜索.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap04/ex1-Hello-JSX.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/HTML5秘籍/HTML5秘籍.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/HTML5秘籍/HTML5秘籍.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/day1/HTML5.md" beforeDir="false" afterPath="$PROJECT_DIR$/video/day1/HTML5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/React快速上手开发/React快速上手开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/React快速上手开发/React快速上手开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/day6/原型链.md" beforeDir="false" afterPath="$PROJECT_DIR$/video/day6/原型链.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,20 +50,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\FE\zz\lib" />
-      <recent name="E:\FE\video\day2\ex" />
-      <recent name="E:\FE" />
-      <recent name="$PROJECT_DIR$/book/你不知道的JavaScript（中）" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\FE\book\React快速上手开发\build" />
       <recent name="E:\FE\video\day3\ex\images" />
       <recent name="E:\FE\zz" />
       <recent name="E:\FE" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FE\practice" />
+      <recent name="E:\FE\zz\lib" />
+      <recent name="E:\FE\video\day2\ex" />
+      <recent name="E:\FE" />
+      <recent name="$PROJECT_DIR$/book/你不知道的JavaScript（中）" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -353,7 +112,8 @@
       <workItem from="1578359139936" duration="14535000" />
       <workItem from="1578874476955" duration="4860000" />
       <workItem from="1578962409461" duration="16272000" />
-      <workItem from="1579154976615" duration="12563000" />
+      <workItem from="1579154976615" duration="32392000" />
+      <workItem from="1579248574289" duration="1098000" />
     </task>
     <servers />
   </component>
@@ -377,17 +137,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577090474008" />
-    <state x="463" y="164" key="SettingsEditor" timestamp="1577237414179">
+    <state x="463" y="164" key="SettingsEditor" timestamp="1579248666497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577237414179" />
+    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579248666497" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576202992855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1576202992855" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576202159314">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579228877653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1576202159314" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579228877653" />
   </component>
 </project>

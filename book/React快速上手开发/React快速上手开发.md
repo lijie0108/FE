@@ -182,18 +182,73 @@ reactAppNode.parentNode === document.getElementById("app"); // true
 ### 2.12 生命周期示例：输出日志记录
 
 ### 2.13 生命周期示例：使用mixin
+mixin其实是一个JavaScript对象，包含一系列方法和属性。mixin不能独立使用，需要包含在另一个对象的属性中。在这个日志例子中，mixin可以写成这样：
+### 2.14 生命周期示例：使用子组件
+### 2.15 性能优化：避免组件更新
+最后应该了解的生命周期方法是shouldComponentUpdate(nextProps, nextState)，它对于构建性能关键型的应用场景尤为重要。这个方法在componentWillUpdate()
+之前调用，给你一个机会进行判断，当非必需时可以取消组件更新。
 
+有一类组件在render()方法中只使用了this.props和this.state，而没有其他额外的函数调用。这一类组件被称为“纯”组件。这种组件可以通过实现shouldComponentUpdate()
+方法，用于比较前后的状态与属性。若没有发生任何变化，则返回false以节省部分处理能力。此外,对于没有使用props和state的纯静态组件，直接返回false即可。
 
+### 2.16 PureRenderMixin
+上述shouldComponentUpdate()方法的实现相当简单。想要将其变得更为通用也并非难事，你只需要对this.props和nextProps，以及this.state和nextState进行比较即可。
+对此，React通过mixin的形式提供了一种通用实现，并且可以简单地应用于任何组件当中。
 
+## 第3章 Excel：一个出色的表格组件
+本章将温故而知新，创建一个更有趣的组件--数据表格。
+### 3.1 构造数据
+表格组件需要接收一个数据数组和一个表头数组。
 
+### 3.2 表头循环
+在传递子节点给组件时，既可以传递一个单独的数组参数，也可以把每个子节点作为独立的参数传递。因此下列两种写法是等价的：
+```javascript
+// 传递独立的参数
+React.DOM.ul(
+    null,
+    React.DOM.li(null, 'one'),
+    React.DOM.li(null, 'two'),
+    React.DOM.li(null, 'three'),
+)
+// 传递数组
+React.DOM.ul(
+    null,
+    [
+    React.DOM.li(null, 'one'),
+    React.DOM.li(null, 'two'),
+    React.DOM.li(null, 'three')
+    ]
+)
+```
+### 3.3 消除控制台的警告信息
+传递给Array.prototype.map()的回调函数被调用时会提供三个参数：元素的值、元素的索引值（0,1,2等）和整个数组。你只需要把每个元素的
+索引值（idx）提供给React作为key属性即可。这个key属性只需要在该数组中保持唯一，而不需要保证在整个React应用中唯一。
 
+### 3.4 添加 <td>内容
+组件的state会发生变化。因此，我们使用this.state.data保持跟踪数据变化，使用this.props.initialData进行组件初始化。
 
+React.PropTypes提供了一个array验证器，以确保属性总是一个数组。此外，它还提供了一个arrayOf函数，以验证数组元素的具体类型。
 
+### 3.5 排序
+### 3.6 排序的视觉提示
+### 3.7 编辑数据
+#### 3.7.1 可编辑单元格
+#### 3.7.2 输入字段的单元格
+#### 3.7.3 保存
+#### 3.7.4 结论与虚拟DOM Diff算法
+对于性能和界面更新，React通过以下方式给与你支持：
+- 轻量级操作DOM
+- 使用事件委托响应用户交互
 
+### 3.8 搜索
+#### 3.8.1 状态与界面
+#### 3.8.2 筛选内容
+#### 3.8.3 如何改进搜索功能
 
+### 3.9 即时回放
 
-
-
+## 第4章 JSX
+JSX是一项独立于React且完全可选的技术。
 
 
 
