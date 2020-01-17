@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 获取一次当前地理位置信息
+    window.navigator.geolocation.getCurrentPosition(success, error);
+
+    function success(msg) {
+        console.log(msg)
+    }
+    function error(err) {
+        console.log(err);
+    }
+
+    // 实时获取地理 位置
+    window.navigator.geolocation.watchPosition(success, error);
+</script>
+</body>
+</html>

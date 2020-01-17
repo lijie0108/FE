@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function fn() {
+        var a = 5;
+        return function () {
+            a++;
+            console.log(a);
+        }
+    }
+
+    var f1 = fn(); // f1指向匿名函数
+    f1(); // 6
+    // 把a变量的放在f1函数可以访问到的地方
+
+
+    var f2 = fn();
+    f2(); // 6
+    // 又一次执行了fn，又初始化了一个新的a变量，值为5，返回匿名函数f2,并且把新的a变量放到f2可以访问到的地方
+
+    var f3 = fn();
+    f3(); // 6
+    // 同上
+
+    function q1() {
+        var a = {};
+        return a;
+    }
+    var r1 = q1();
+    var r2 = q1();
+    console.log(r1 == r2); // false
+
+    function q2() {
+        var a = {};
+        return function() {
+            return a;
+        }
+    }
+
+    var t3 = q2();
+    var o5 = t3();
+    var o6 = t3();
+    console.log(o5 == o6); // true
+
+    var w3 = q2();
+    var o8 = w3();
+    console.log(o5 == o8); // false
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "no-undef": 1,
+      "no-new": 0, 
+      "no-tabs": 0,
+      "indent": 1,
+      "no-mixed-spaces-and-tabs": [0, false], 
+      "camelcase": 0,
+      "eqeqeq": 0, 
+      "arrow-parens": 0,
+      "generator-star-spacing": 0,
+      "semi": 0, 
+      "quotes": [
+        "error",
+        "single"
+      ]
+    }
+  }
+  

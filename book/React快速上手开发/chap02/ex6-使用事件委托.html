@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="parent">
+    <button id="ok">Ok</button>
+    <button id="cancel">Cancel</button>
+</div>
+
+<script>
+    document.getElementById("parent").addEventListener("click", function (event) {
+        var button = event.target;
+        // 根据具体点击的按钮进行不同操作
+        switch (button.id) {
+            case 'ok':
+                console.log('OK!');
+                break;
+            case 'cancel':
+                console.log('Cancel');
+                break;
+            default:
+                new Error('Unexpected button Id');
+        }
+    })
+
+    /*
+   事件委托虽然方法奏效，性能也不错，但是它仍有一些缺点
+   1.监听器的声明代码远离视图组件，使得代码难以搜索与调试
+   2.使用委托总要经过switch结构，在你开始进行实际逻辑编写之前，需要创建不必要的样板代码
+   3.实际中为处理浏览器的不一致性，会让代码变得更加冗长。
+
+   不幸的是，在你打算把这段代码放到真实环境给用户使用之前，还需要做更多工作，以支持所有主流浏览器
+   1.除了addEventListener之外还需要attachEvent
+   2.要在监听器顶部使用 event || window.event
+   3.需要使用 var button = event.target || event.srcElement
+
+     */
+</script>
+</body>
+</html>

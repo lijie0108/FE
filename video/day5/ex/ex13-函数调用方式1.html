@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var age = 18;
+    var p = {
+        age: 15,
+        say: function () {
+            console.log(this.age);
+        }
+    };
+
+    var f1 = p.say;
+    f1(); // 函数调用 --> this指向window
+
+    function Person(name) {
+        this.name = name;
+    }
+
+    Person.prototype = {
+        constructor: Person,
+        say: function () {
+            console.log(this);
+        }
+    }
+
+    // 函数的第一种调用方式： 函数调用 --> this指向window
+    Person("abc");
+
+    function fn() {
+        this.age = 18;
+    }
+
+    fn();
+</script>
+</body>
+</html>

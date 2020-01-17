@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>1111</div>
+<div>2222</div>
+<div>3333</div>
+<div>4444</div>
+
+<script>
+    // var divs = document.querySelectorAll("div");
+    // for(var i = 0; i < divs.length; i++) {
+    //     divs[i].onclick = function () {
+    //         // i来自于全局作用域
+    //         alert(i);
+    //     }
+    // }
+    // 执行完for循环之后，i的值已经变成了5
+
+    var divs = document.querySelectorAll("div");
+    for(var i = 0; i < divs.length; i++) {
+        divs[i].onclick = (function (j) {
+            // i来自于全局作用域
+            return function () {
+                alert(j);
+            }
+        })(i)
+    }
+
+</script>
+</body>
+</html>

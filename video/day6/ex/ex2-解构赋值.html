@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let obj = { name: "abc", age: 18 };
+    console.log(obj.name);
+    console.log(obj.age);
+
+    // 用解构赋值的方式获取name和age
+
+    let { name, age } = obj; // 创建了一个变量name，值为obj.name
+    console.log(name);
+    console.log(age);
+
+    let obj2 = { gender: "abc", height: 180, grade: "一年级" };
+    let { gender, height, grade } = obj2;
+
+    // 解构赋值的意义所在：
+    function fn(option) {
+        // option.width;
+        // option.height;
+        // option.age
+    }
+    fn({
+        width: 100,
+        height: 180,
+        age: 18
+    })
+
+
+    function fn2({width, height, age}) {
+        // 创建了width、height、age三个局部变量，值来自于实参对象
+        // 这样写代码又节省了一些字符
+    }
+    fn2({
+        width: 100,
+        height: 180,
+        age: 18
+    })
+
+    // 解构赋值的其他用法
+    var obj = { name: "张三", age: 18 };
+    // 创建一个新变量，objName, 值 = obj.name
+    var { name: objName } = obj;
+
+
+    // 另一种情况
+    var a = 3;
+    var c = 10;
+    var b = { a, c }; // b对象有一个a属性，a属性的值，来自于a变量，还有一个c属性，c属性的值来自于c变量
+
+    console.log(b);
+</script>
+</body>
+</html>

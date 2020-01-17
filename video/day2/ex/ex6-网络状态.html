@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var state = window.navigator.onLine;
+    if(state) {
+        alert("您好，当前处于联网状态");
+    }else {
+        alert("当前处于断网状态")
+    }
+
+    window.ononline = function () {
+        alert("在线")
+    }
+    window.onoffline = function () {
+        alert("断网")
+    }
+</script>
+</body>
+</html>

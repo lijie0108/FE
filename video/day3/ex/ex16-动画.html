@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 0px;
+            height: 0px;
+            border-left: 100px solid green;
+            border-right: 100px solid palevioletred;
+            border-bottom: 100px solid olivedrab;
+            border-top: 100px solid salmon;
+            border-radius: 50%;
+            animation-name: move;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            /*动画停止的时候的状态*/
+            animation-fill-mode: forwards;
+        }
+        .box:hover {
+            animation-play-state: paused;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes move {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(200px);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

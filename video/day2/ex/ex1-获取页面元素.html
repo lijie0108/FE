@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul li p span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>
+        <p>
+            <span>1</span>
+        </p>
+    </li>
+    <li>
+        <span>2</span>
+    </li>
+</ul>
+
+<script>
+    // document.querySelector("li p span").style.color = "green";
+    document.querySelector("li span").style.color = "green"; // 通过该选择器只能选中第一个元素
+
+    let list = document.querySelectorAll("li span"); // 通过该选择器可以选中所有符合选择器规则的元素，返回的是一个列表。
+    list[0].style.color = "blue";
+    list[1].style.color = "pink";
+</script>
+</body>
+</html>

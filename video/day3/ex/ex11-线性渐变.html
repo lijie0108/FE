@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .line {
+            height: 100px;
+            background-image: linear-gradient(
+            to right, red, blue
+            );
+            background: linear-gradient(
+            135deg, red, blue
+            );
+            background: linear-gradient(
+            /*to right,*/
+            135deg,
+            red 20%,
+            blue 20%,
+            blue 40%,
+            red 40%,
+            red 60%,
+            blue 60%,
+            blue 80%,
+            red 80%,
+            red 100%
+            );
+        }
+    </style>
+</head>
+<body>
+<div class="line"></div>
+<!--表示方向： -->
+<!--    1.to + right | top | bottom | left-->
+<!--    2.角度 0deg | 90deg-->
+</body>
+</html>

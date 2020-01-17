@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function fn1() {
+
+    }
+    var f1 = new fn1();
+
+    function fn2() {
+        return 1;
+    }
+    var f2 = new fn2();
+
+    function fn3() {
+        return [1, 3, 5];
+    }
+    var f3 = new fn3();
+    console.log(f3); // f3不是fn3构造函数的实例
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 400px;
+            height: 400px;
+            padding: 10px;
+            border: 10px dashed yellowgreen;
+            background: pink url("./images/11.jpg") no-repeat;
+            /*background-origin: padding-box;*/
+            /*background-origin: content-box;*/
+            background-origin: border-box;
+        }
+    </style>
+</head>
+<body>
+<!--默认盒子的背景图片是从盒子的内边距左上角开始-->
+<div class="box"></div>
+</body>
+</html>

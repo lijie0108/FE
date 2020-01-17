@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 拷贝继承（混入继承）
+    // 场景：有时候想使用某个对象中的属性，但是又不能直接修改它，于是就可以创建一个该对象的拷贝
+    var o3 = {
+        gender: "男",
+        grade: "初三",
+        group: "第五组",
+        name: "张三"
+    }
+    var o4 = {
+        gender: "男",
+        grade: "初三",
+        group: "第五组",
+        name: "李四"
+    }
+
+    // 上述代码中，如果使用拷贝继承对代码进行优化会非常和谐
+    // 实现拷贝继承
+    // 1.已经拥有了o3对象
+    // 2.创建了一个o3对象的拷贝（克隆）
+    // 3.修改克隆对象，把该对象的name属性改为“李四”
+
+    var o5 = {};
+    for(var key in o3) {
+        // key就是o3对象中的每一个属性
+        o5[key] = o3[key]
+    }
+    o5.name = "李四";
+
+    // 后续如果修改了 o4对象中的相关属性，就不会影响到 o3
+
+    // 浅拷贝和深拷贝
+    // 浅拷贝只是拷贝一层属性，没有内部对象
+    // 深拷贝其实是利用了递归的原理，将对象的若干属性拷贝出来
+
+    // 封装拷贝继承函数
+    function extend(source, target) {
+        for(var key in source) {
+            target[key] = source[key];
+        }
+        return target;
+    }
+
+    var o6 = {};
+    extend(o3, o6);
+    o6.name = "思思";
+
+    // es6中的对象扩展运算符，仿佛就是专门为了拷贝继承而生
+    var source = { name: "李白", age: 41 };
+    var target = { ...source, age: 71 };
+</script>
+</body>
+</html>

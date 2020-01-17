@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  /*
+  变量作用域：就是一个变量可以使用的范围
+  JS中首先由一个最外层的作用域，称之为全局作用域
+  JS中还可以通过函数创建出一个独立的作用域，其中函数可以嵌套，所以作用域也可以嵌套
+
+  作用域链：
+   */
+
+  var age = 18;
+  function f1() {
+      console.log(name);
+      var name = "sisi";
+      console.log(name);
+      console.log(age);
+  }
+
+  function fn3() {
+      return function() {
+
+      }
+      var age = 15;
+  }
+
+</script>
+</body>
+</html>

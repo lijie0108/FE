@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper {
+            height: 40px;
+            margin: 20px auto;
+            background: pink;
+            overflow: hidden;
+        }
+        .swiper {
+            animation: scrollTop 4s linear  infinite forwards;
+        }
+        .swiper li {
+            height: 40px;
+            line-height: 40px;
+            background: pink;
+            text-align: center;
+            color: #fff;
+        }
+        .swiper li:nth-child(2) {
+            color: blueviolet;
+        }
+        .swiper li:nth-child(3) {
+            color: olivedrab;
+        }
+        .swiper li:nth-child(4) {
+            color: black;
+        }
+        .swiper li:nth-child(5) {
+            color: orchid;
+        }
+
+        @keyframes scrollTop {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <ul class="swiper">
+        <li>11</li>
+        <li>22</li>
+        <li>33</li>
+        <li>44</li>
+        <li>55</li>
+    </ul>
+</div>
+</body>
+</html>

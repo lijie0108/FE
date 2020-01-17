@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .lottery {
+            display: flex;
+            flex-wrap: wrap;
+            width: 300px;
+            margin: 100px auto;
+            border: 1px solid #aaa;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:100px;
+            height: 100px;
+        }
+        .active {
+            background: aquamarine;
+        }
+        .normal {
+            color: #fff;
+            font-size: 20px;
+            background: #ff2f39;
+        }
+    </style>
+</head>
+<body>
+<ul class="lottery">
+    <li class="item item8">11</li>
+    <li class="item item1">22</li>
+    <li class="item item2">33</li>
+    <li class="item item7">44</li>
+    <li class="item normal" id="start">立即开始</li>
+    <li class="item item3">66</li>
+    <li class="item item6">77</li>
+    <li class="item item5">88</li>
+    <li class="item item4">99</li>
+</ul>
+<script>
+    let start = document.querySelector("#start");
+    start.addEventListener('click', startHandler);
+
+    let lists = document.querySelector(".lottery").querySelectorAll('.item');
+    console.log(lists);
+
+    let timer = null;
+
+    function startHandler() {
+        let current = 1;
+        let num = 7;
+        timer = setInterval(function () {
+            if(current > 8) {
+                current = 1;
+            }
+            for(let i = 0; i < lists.length; i++) {
+                lists[i].classList.remove('active');
+            }
+
+            document.getElementsByClassName("item"+ current)[0].classList.add('active')
+            if(num === current) {
+                clearInterval(timer);
+                alert("恭喜中奖")
+            }
+
+            current++;
+        },100)
+    }
+</script>
+</body>
+</html>

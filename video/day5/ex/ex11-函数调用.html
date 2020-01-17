@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var age = 18;
+    var p = {
+        age: 15,
+        say: function () {
+            console.log(this.age);
+        }
+    }
+
+    var s1 = p.say();
+    s1();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+存储在 localStorage 的数据可以长期保留；而当页面会话结束——也就是说，当页面被关闭时，存储在 sessionStorage 的数据会被清除 。
+<script>
+    window.localStorage.setItem('name', 'jie');
+    window.localStorage.getItem('name');
+    window.localStorage.removeItem('name');
+    window.localStorage.clear();
+
+    window.sessionStorage.setItem('age', '18');
+    window.sessionStorage.getItem('age');
+    window.sessionStorage.removeItem('age');
+    window.sessionStorage.clear();
+</script>
+</body>
+</html>

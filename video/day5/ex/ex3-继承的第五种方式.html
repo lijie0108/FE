@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // call和apply
+    // 局限性：Animal（父类构造函数）的代码必须完全适用于Person（子类构造函数）
+
+    function Animal(name, age, gender) {
+        this.name = name;
+        this.age = age;
+        this.gender =gender;
+    }
+
+    function Person1(name, age, gender, say) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.say = function () {
+
+        }
+    }
+    function Person2(name, age, gender, say) {
+        // 函数调用方式，函数内部的this指向window
+        // Animal(name,age,gender);
+        // 将Animal函数内部的this指向Person实例
+        // Animal.call(this, name, age, gender);
+        Animal.apply(this, [name, age, gender]);
+        this.say = function () {
+
+        }
+    }
+    var p1 = new Person2("思思", 18, "女");
+</script>
+</body>
+</html>

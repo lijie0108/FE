@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--    应用渲染的位置-->
+</div>
+<script crossorigin src="../build/react.js"></script>
+<script crossorigin src="../build/react-dom.js"></script>
+
+<script>
+    ReactDOM.render(
+        React.DOM.h1(
+            {
+                className: "pretty",
+                htmlFor: "me",
+                style: {
+                    background: "green",
+                    color: "white"
+                }
+            },
+            "hello world"
+        ),
+        document.getElementById("app")
+    )
+</script>
+</body>
+</html>

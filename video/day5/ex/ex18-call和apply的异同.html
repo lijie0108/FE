@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // call和apply都可以改变函数内部的this值
+    // 不同的地方：传参的形式不同
+    function toString(a, b, c) {
+        console.log(a + " " + b + " " + c);
+    }
+    toString.call(null, 1, 3, 5);
+    toString.call(null, [1, 3 , 5]);
+</script>
+</body>
+</html>

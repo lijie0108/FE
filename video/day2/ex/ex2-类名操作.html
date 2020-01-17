@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .normal {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #aaa;
+            margin: 100px auto;
+        }
+        .active {
+            background: #00cc99;
+        }
+    </style>
+</head>
+<body>
+<div class="normal">
+
+</div>
+<input type="button" value="添加背景" id="add">
+<input type="button" value="删除背景" id="remove">
+<input type="button" value="切换背景" id="toggle">
+<script>
+    let oDiv = document.querySelector(".normal");
+    let add = document.querySelector("#add");
+    let remove = document.querySelector("#remove");
+    let toggle = document.querySelector("#toggle");
+    add.addEventListener('click', clickHandler, false);
+    remove.addEventListener('click', clickHandler, false);
+    toggle.addEventListener('click', clickHandler, false);
+    function clickHandler(args) {
+        args = args.target.id;
+        switch (args) {
+            case "add":
+                oDiv.classList.add('active');
+                break;
+            case "remove":
+                oDiv.classList.remove('active');
+                break;
+            case "toggle":
+                oDiv.classList.toggle('active');
+                break;
+            default:
+                oDiv.classList.contains('active');
+                break;
+        }
+    }
+</script>
+</body>
+</html>

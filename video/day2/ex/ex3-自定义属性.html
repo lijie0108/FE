@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="one" data-test="123"></div>
+
+<script>
+    // 获取标签的自定义属性名
+    let list = document.querySelector('.one').dataset;
+    console.log(list);
+    console.log(list.test);
+
+    list.age = 20;
+    list.testName = "test";
+</script>
+</body>
+</html>

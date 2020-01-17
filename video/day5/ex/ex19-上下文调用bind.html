@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var obj = {
+        age: 18,
+        run: function () {
+            setTimeout(function () {
+                console.log(this.age); // undefined
+            }, 50)
+        }
+    };
+    obj.run(); // undefined
+
+    var obj1 = {
+        age: 18,
+        run: function () {
+            var that = this;
+            setTimeout(function () {
+                console.log(that.age); // 18
+            }, 50)
+        }
+    };
+    obj1.run(); // 18
+
+    var obj2 = {
+        age: 18,
+        run: function () {
+            setTimeout((function () {
+                console.log(this.age); // 18
+            }).bind(this), 50);
+            // 通过执行了bind方法，匿名函数本身并没有执行，只是改变了该函数内部的this值，指向obj
+        }
+    };
+    obj2.run(); // 18
+
+    // bind基本用法
+    function speed() {
+        console.log(this.seconds);
+    }
+    // 执行了bind方法之后，产生了一个新函数，这个新函数里面的逻辑和原来是一样的，唯一的不同是this指向 { seconds: 100 }
+    var speedBind = speed.bind({ seconds: 100 });
+    speedBind();
+
+    (function eat() {
+        console.log(this.seconds);
+    }).bind({ seconds: 360 }); // 360
+
+    var obj3 = {
+        name: "西瓜",
+        drink: (function () {
+            console.log(this.name);
+        }).bind({ name: "橙子" })
+    }
+    obj3.drink();
+
+    var p10 = {
+        height: 80,
+        run: function () {
+            setInterval((function () {
+                console.log(this.height);
+            }).bind(this), 100)
+        }
+    }
+    p10.run(); // 80
+</script>
+</body>
+</html>

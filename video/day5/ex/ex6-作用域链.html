@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function fn(callback) {
+        var age = 18;
+        callback()
+    }
+    fn(function () {
+        console.log(age); // undefined
+        var age = 15;
+    })
+
+
+    function fn1(callback) {
+        var age = 18;
+        callback()
+    }
+    fn1(function () {
+        console.log(age); // ReferenceError: age is not defined
+        // 分析：age变量
+        // 1.查找当前作用域，并没有
+        // 2.查找上一级作用域： 全局作用域
+        // --> 难点：看上一级作用域，不是看函数在哪里调用，而是看函数在哪里编写
+        // --> 因为这种特点，我们通常会把作用域称为词法作用域
+
+    })
+</script>
+</body>
+</html>

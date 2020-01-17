@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var ktv = (function KTV() {
+        // 为了保护leastPrice变量，将它放在函数内部
+        var leastPrice = 1000;
+        var total = 0;
+        return {
+            // 消费
+            buy: function (price) {
+                total += price;
+            },
+            // 结账
+            pay:function () {
+                if(total < leastPrice) {
+                    console.log("请继续购物")
+                }else {
+                    console.log("欢迎下次光临");
+                }
+            },
+            editLeast:function (id, price) {
+                if(id === 888) {
+                    leastPrice = price;
+                    console.log("现在最低消费金额为，" + leastPrice);
+                } else {
+                    console.log("权限不足");
+                }
+            },
+            reset:function () {
+                leastPrice = 1000;
+                console.log("现在最低消费金额为 1000");
+            }
+        }
+    })();
+
+    // 有问题，来了一个不需要最低消费的朋友
+    // 修改最低消费
+
+    // 闭包的应用场景
+    // 模块化
+    // 防止变量被破坏
+</script>
+</body>
+</html>

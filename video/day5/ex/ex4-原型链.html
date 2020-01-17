@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 原型链
+    /*
+    概念：JS里面的对象可能会有父对象，父对象还会有父对象， 。。。 祖先。
+    根本：继承
+        属性：对象中几乎都会有一个 __proto__属性，指向他的父对象
+        意义：可以实现让该对象访问到父对象中的属性
+
+    根对象：Object.prototype
+    var arr = [1, 3, 5];
+    arr.__proto__: Array.prototype
+    arr.__proto__.__proto__: 找到了根对象
+     */
+
+    function Person() {}
+    var p5 = new Person();
+    console.log(p5.__proto__ === Person.prototype);
+
+    function Animal() {
+
+    }
+    var cat = new Animal();
+
+    // cat.__proto__ : Animal.prototype
+    // cat.__proto__.__proto__ : 根对象
+
+</script>
+</body>
+</html>

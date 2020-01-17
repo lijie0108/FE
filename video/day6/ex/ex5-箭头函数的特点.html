@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var p = {
+        age: 18,
+        // es6中对象方法的箭头函数表示形式
+        run: () => {
+            setTimeout(()=> {
+                // this: window
+                console.log(this);
+            })
+        },
+        // es6中对象方法的简写形式,推荐的方式
+        say() {
+            console.log(this); // this: p
+            setTimeout(()=> {
+                // this: p
+                console.log(this);
+            })
+        },
+        travel: function () {
+            console.log(this); // this: p
+            setTimeout(()=> {
+                // this: window
+                console.log(this);
+            })
+        }
+    }
+
+    p.run();
+    p.say();
+    p.travel();
+    "use strict";
+    var s1 = {
+        name: "ss",
+        say() {
+            "use strict";
+            console.log('say', this);
+            setTimeout(function () {
+                "use strict";
+                console.log('1111', this);
+            }, 100)
+        },
+        run: function() {
+            "use strict";
+            console.log('run', this);
+        },
+        eat: ()=> {
+            console.log('eat', this);
+        }
+    };
+    s1.say();
+    // s1.run();
+    // s1.eat();
+</script>
+</body>
+</html>

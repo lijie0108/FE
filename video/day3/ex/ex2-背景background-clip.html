@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+            padding: 10px;
+            background: pink url("./images/11.jpg");
+            border: 10px dashed yellowgreen;
+            background-clip: border-box;
+            /*background-clip: padding-box;*/
+            /*background-clip: content-box;*/
+        }
+    </style>
+</head>
+<body>
+<!--背景裁切，默认值是border-box-->
+<div class="box"></div>
+</body>
+</html>

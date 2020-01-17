@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var person = {
+        gender: "男",
+        height: 185,
+        toShangHai: function () {
+            console.log('做飞机去上海');
+        },
+        toSay() {
+            console.log('aaaa');
+        }
+    }
+
+    console.log(person.gender);
+    console.log(person["height"]);
+
+    person.address = "上海市闽北区";
+    person.height = 190;
+
+    delete person.height;
+    delete person.a; // 没有意义，不会报错
+
+    // delete 关键字只能删除对象中的属性，不能删除变量
+
+    // 清空对象
+    person = {}; // person对象不再具有任何属性
+    person = null; // 表示将person变量的值赋为null，从此以后person不再是一个对象了
+</script>
+</body>
+</html>
