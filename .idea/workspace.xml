@@ -2,33 +2,746 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff9408c-266b-4b09-b282-741a8baf3eeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex10-避免组件更新.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex11-PureRenderMixin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex8-使用mixin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex9-使用子组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex1-构造数据.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex2-表头循环.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex3-消除控制台的警告信息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex4-添加td内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex5-排序.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex6-排序的视觉提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex7-编辑数据.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex8-搜索.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap04/ex1-Hello-JSX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch01/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/jswelcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch02/script10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/images/redFlash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch03/script11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/DaVinci.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/arrow_off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/arrow_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/banner1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/banner2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/banner3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/bear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/button1_click.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/button1_off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/button1_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/button2_click.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/button2_off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/button2_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/flyer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/flyerText.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/flyer_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/helicopter.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/helicopterText.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/helicopter_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/leoText.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/lion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/reading1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/reading2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/reading3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/robot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/robot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/robot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/tank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/tankText.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/tank_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/images/tiger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch04/script11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/frameset1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/iframe01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/iframe02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/pixel1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/pixel2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/pixel3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/pixel4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/reading1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/reading2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/reading3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/left1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/page1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/page2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/page3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch05/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch06/script10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/images/button1_click.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/images/button1_off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/images/button1_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/images/button2_click.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/images/button2_off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/images/button2_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch07/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/Img0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/Img0_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/Img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/Img1_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/Img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/Img2_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/callisto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/catseyenebula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/circle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/crabnebula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/eskimonebula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/europa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/ganymede.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/io.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/lilRed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/images/ringnebula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script08.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script09.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch08/script09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/images/new.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/notes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script07.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch09/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch10/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script07.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch11/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/lilBlue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/lilGreen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/lilRed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/images/slideImg9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/sansStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script07.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch12/serifStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/flickrfeed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/gAddress.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/images/button1_click.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/images/button1_off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/images/button1_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/images/button2_click.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/images/button2_off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/jsintro/2000-08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/jsintro/2000-09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/jsintro/2000-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/jsintro/2000-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch13/us-states.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/jquery/images/asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/jquery/images/desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/jquery/jquery.tablesorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch14/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/images/Neutron_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/images/blackhole.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/images/pulsar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script08.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch15/script08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/README.textile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/css/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-fade/img/example-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-fade/img/example-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-fade/img/example-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-fade/img/example-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-fade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-fade/js/jquery.slides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-slide/img/example-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-slide/img/example-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-slide/img/example-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-slide/img/example-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-slide/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/basic-slide/js/jquery.slides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/callbacks/img/example-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/callbacks/img/example-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/callbacks/img/example-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/callbacks/img/example-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/callbacks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/callbacks/js/jquery.slides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/css/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/font/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/css/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/font/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/img/example-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/img/example-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/img/example-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/img/example-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/img/pagination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/multiple/js/jquery.slides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/css/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/font/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/img/btns-next-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/img/example-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/img/example-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/img/example-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/img/example-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/img/pagination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/playing/js/jquery.slides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/css/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/font/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/img/example-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/img/example-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/img/example-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/img/example-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/img/pagination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/examples/standard/js/jquery.slides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/font/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/images/pagination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/source/jquery.slides.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/source/jquery.slides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/SlidesJS/source/jquery.slides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/01estock_commonswiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/02estock_commonswiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/03estock_commonswiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/04estock_commonswiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/05estock_commonswiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/06estock_commonswiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/images/img_0014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/Rhapsody_in_Blue.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/Rhapsody_in_Blue.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/DroidSansMono/DroidSansMono.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/DroidSansMono/DroidSansMono.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/DroidSansMono/DroidSansMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/DroidSansMono/DroidSansMono.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/DroidSansMono/Google Android License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/DroidSansMono/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/DroidSansMono/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mb.audio.font.vfb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mb_audio_font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mb_audio_font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mb_audio_font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mb_audio_font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mbaudio_font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mbaudio_font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mbaudio_font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/mbaudio_font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/mbAudioFont/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/css/miniplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/Jplayer.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/id3/binaryajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/id3/id3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/id3/id3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/img/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/img/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/img/rewind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/img/stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/img/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/jquery.jplayer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/jquery.mb.miniPlayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/miniColors/jquery.minicolors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/miniColors/jquery.minicolors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/inc/miniColors/jquery.minicolors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/jquery.mb.miniAudioPlayer.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/licenses/GPL-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/licenses/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/map_download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/mbPlayer/skinmaker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch16/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/images/3alpacas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/images/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch17/script04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch18/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/01-脚本放在哪里.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/02-关于函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-使用外部脚本.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/04-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/04-向用户发出警告.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/05-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/05-确认用户的选择.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/06-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/06-提示用户.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/07-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/07-用链接对用户进行重定向.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/08-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/08-使用JavaScript改进链接.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-使用多级条件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-处理错误.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/jswelcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-Bingo卡片框架.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/images/redFlash.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/React快速上手开发/React快速上手开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/React快速上手开发/React快速上手开发.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/day6/原型链.md" beforeDir="false" afterPath="$PROJECT_DIR$/video/day6/原型链.md" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2119970413">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="html" value="22" />
+          <entry key="js" value="10" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="22" />
+          <entry key="JavaScript" value="10" />
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="269" />
+          <entry key="html" value="759" />
+          <entry key="js" value="2213" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="269" />
+          <entry key="HTML" value="759" />
+          <entry key="JavaScript" value="2213" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-使用多级条件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-Bingo卡片框架.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+              <folding>
+                <element signature="e#335#341#1" expanded="true" />
+                <element signature="e#403#409#1" expanded="true" />
+                <element signature="e#437#443#1" expanded="true" />
+                <element signature="e#485#491#1" expanded="true" />
+                <element signature="e#518#524#1" expanded="true" />
+                <element signature="e#552#558#1" expanded="true" />
+                <element signature="e#586#592#1" expanded="true" />
+                <element signature="e#620#626#1" expanded="true" />
+                <element signature="e#668#674#1" expanded="true" />
+                <element signature="e#701#707#1" expanded="true" />
+                <element signature="e#845#851#1" expanded="true" />
+                <element signature="e#878#884#1" expanded="true" />
+                <element signature="e#912#918#1" expanded="true" />
+                <element signature="e#946#952#1" expanded="true" />
+                <element signature="e#980#986#1" expanded="true" />
+                <element signature="e#1028#1034#1" expanded="true" />
+                <element signature="e#1061#1067#1" expanded="true" />
+                <element signature="e#1095#1101#1" expanded="true" />
+                <element signature="e#1129#1135#1" expanded="true" />
+                <element signature="e#1163#1169#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="98" column="2" lean-forward="true" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch01/script01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-处理错误.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/08-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="markdown" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -36,8 +749,95 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/01-脚本放在哪里.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/01-脚本放在哪里.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/02-关于函数.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-使用外部脚本.css" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-使用外部脚本.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/04-向用户发出警告.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/04-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/05-确认用户的选择.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/05-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/06-提示用户.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/06-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/jswelcome.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/07-用链接对用户进行重定向.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/07-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/08-使用JavaScript改进链接.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/08-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-使用多级条件.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-处理错误.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-script.js" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-Bingo卡片框架.html" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-css.css" />
+        <option value="$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/css3-demo-master/package.json" />
+      <path value="$PROJECT_DIR$/get-award-master/package.json" />
+      <path value="$PROJECT_DIR$/vue-mo-cli-master/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="735" />
+    <option name="y" value="23" />
+    <option name="width" value="705" />
+    <option name="height" value="797" />
+  </component>
   <component name="ProjectId" id="1UjAUMmh1TJ5hxSvzmbFpoMFkdC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript基础教程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FE" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript基础教程" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter03" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,24 +848,37 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book/JavaScript基础教程/chapter03" />
+      <recent name="$PROJECT_DIR$/book/JavaScript基础教程" />
       <recent name="E:\FE\book\React快速上手开发\build" />
       <recent name="E:\FE\video\day3\ex\images" />
       <recent name="E:\FE\zz" />
-      <recent name="E:\FE" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\FE\practice" />
       <recent name="E:\FE\zz\lib" />
       <recent name="E:\FE\video\day2\ex" />
       <recent name="E:\FE" />
       <recent name="$PROJECT_DIR$/book/你不知道的JavaScript（中）" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -112,13 +925,44 @@
       <workItem from="1578359139936" duration="14535000" />
       <workItem from="1578874476955" duration="4860000" />
       <workItem from="1578962409461" duration="16272000" />
-      <workItem from="1579154976615" duration="32392000" />
-      <workItem from="1579248574289" duration="1098000" />
+      <workItem from="1579154976615" duration="12563000" />
+      <workItem from="1581828054121" duration="5939000" />
+      <workItem from="1581919823758" duration="2974000" />
+      <workItem from="1581924628323" duration="227000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10046000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="735" y="23" width="705" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33040935" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Inspections" timestamp="1576200311498">
@@ -137,17 +981,294 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577090474008" />
-    <state x="463" y="164" key="SettingsEditor" timestamp="1579248666497">
+    <state x="463" y="164" key="SettingsEditor" timestamp="1577237414179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579248666497" />
+    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577237414179" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576202992855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1576202992855" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579228877653">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576202159314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579228877653" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1576202159314" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/video/info.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="195">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/HTML5秘籍/HTML5秘籍.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="612">
+            <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/你不知道的JavaScript（中）/你不知道的JavaScript（中）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day1/HTML5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="687">
+            <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day1/ex/ex7-input的list属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day2/ex/ex9-HTML5音频和视频.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day2/ex/ex8-本地存储.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day2/ex/ex7-获取地理定位.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day2/ex/ex5-css3实现轮播.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day2/ex/ex4-文件读取.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day3/ex/ex16-动画.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/day3/ex/ex-18魔方.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/01-脚本放在哪里.js" />
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/01-脚本放在哪里.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-使用外部脚本.css" />
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/02-关于函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/03-使用外部脚本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/04-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/04-向用户发出警告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/05-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/05-确认用户的选择.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/06-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/06-提示用户.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/07-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/jswelcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/07-用链接对用户进行重定向.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/08-使用JavaScript改进链接.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-使用多级条件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-Bingo卡片框架.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="e#335#341#1" expanded="true" />
+            <element signature="e#403#409#1" expanded="true" />
+            <element signature="e#437#443#1" expanded="true" />
+            <element signature="e#485#491#1" expanded="true" />
+            <element signature="e#518#524#1" expanded="true" />
+            <element signature="e#552#558#1" expanded="true" />
+            <element signature="e#586#592#1" expanded="true" />
+            <element signature="e#620#626#1" expanded="true" />
+            <element signature="e#668#674#1" expanded="true" />
+            <element signature="e#701#707#1" expanded="true" />
+            <element signature="e#845#851#1" expanded="true" />
+            <element signature="e#878#884#1" expanded="true" />
+            <element signature="e#912#918#1" expanded="true" />
+            <element signature="e#946#952#1" expanded="true" />
+            <element signature="e#980#986#1" expanded="true" />
+            <element signature="e#1028#1034#1" expanded="true" />
+            <element signature="e#1061#1067#1" expanded="true" />
+            <element signature="e#1095#1101#1" expanded="true" />
+            <element signature="e#1129#1135#1" expanded="true" />
+            <element signature="e#1163#1169#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/JavaScript9eScripts/ch01/script01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/10-处理错误.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/09-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter02/08-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/JavaScript基础教程/chapter03/01-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="98" column="2" lean-forward="true" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
