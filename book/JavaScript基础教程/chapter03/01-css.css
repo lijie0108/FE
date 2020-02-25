@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 2px #666 solid;
+  text-align: center;
+  width: 20%;
+}
+
+#free, .pickedBG {
+  background-color: #f66;
+}
+
+.winingBG {
+  background-image: url("./images/redFlash.gif");
+}
+
