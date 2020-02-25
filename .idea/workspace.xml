@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff9408c-266b-4b09-b282-741a8baf3eeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex10-避免组件更新.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex11-PureRenderMixin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex8-使用mixin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap02/ex9-使用子组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex1-构造数据.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex2-表头循环.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex3-消除控制台的警告信息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex4-添加td内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex5-排序.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex6-排序的视觉提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex7-编辑数据.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap03/ex8-搜索.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/React快速上手开发/chap04/ex1-Hello-JSX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/kreact/day1/my-app/src/components/CartSample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/kreact/day1/my-app/src/components/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/kreact/day1/my-app/src/components/CompType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/kreact/day1/my-app/src/components/Lifecycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/kreact/day1/my-app/src/components/StateTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/React快速上手开发/React快速上手开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/React快速上手开发/React快速上手开发.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/day6/原型链.md" beforeDir="false" afterPath="$PROJECT_DIR$/video/day6/原型链.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +19,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="markdown" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1UjAUMmh1TJ5hxSvzmbFpoMFkdC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,21 +47,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\FE\book\React快速上手开发\build" />
-      <recent name="E:\FE\video\day3\ex\images" />
-      <recent name="E:\FE\zz" />
-      <recent name="E:\FE" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\FE\practice" />
       <recent name="E:\FE\zz\lib" />
       <recent name="E:\FE\video\day2\ex" />
       <recent name="E:\FE" />
       <recent name="$PROJECT_DIR$/book/你不知道的JavaScript（中）" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FE" />
+      <recent name="E:\FE\book\React快速上手开发\build" />
+      <recent name="E:\FE\video\day3\ex\images" />
+      <recent name="E:\FE\zz" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -113,7 +110,8 @@
       <workItem from="1578874476955" duration="4860000" />
       <workItem from="1578962409461" duration="16272000" />
       <workItem from="1579154976615" duration="32392000" />
-      <workItem from="1579248574289" duration="1098000" />
+      <workItem from="1579248574289" duration="1978000" />
+      <workItem from="1582505831330" duration="15484000" />
     </task>
     <servers />
   </component>
@@ -137,17 +135,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577090474008" />
-    <state x="463" y="164" key="SettingsEditor" timestamp="1579248666497">
+    <state x="463" y="164" key="SettingsEditor" timestamp="1582507536481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579248666497" />
+    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582507536481" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576202992855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1576202992855" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579228877653">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582590776052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579228877653" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582590776052" />
   </component>
 </project>
