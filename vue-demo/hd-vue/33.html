@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <hd-news2></hd-news2>
+        <hr>
+        <hd-news2></hd-news2>
+        <hr>
+        <hd-news2></hd-news2>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script type="text/x-template" id="hdNews">
+        <ul>
+            <li v-for="(v, k) in news">{{v.title}} <button @click="del(k)">删除</button></li>
+        </ul>
+    </script>
+    <script>
+        var lists = {
+            news: [
+                { title: 'vue' },
+                { title: 'react' }
+            ]
+        }
+        var hdNews2 = {
+            template: '#hdNews',
+            data() {
+                return {
+                    // news: lists.news,
+                    news: [
+                        { title: 'vue' },
+                        { title: 'react' }
+                    ]
+                }
+            },
+            methods: {
+                del(k) {
+                    this.news.splice(k, 1);
+                }
+            }
+        }
+        var app = new Vue({
+            el: '#app',
+            data: {
+
+            },
+            components: {
+                hdNews2
+            }
+        })
+    </script>
+</body>
+
+</html>

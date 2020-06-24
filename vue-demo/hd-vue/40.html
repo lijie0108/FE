@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div :is="formType" class="aaa"></div>
+        <input type="radio" v-model="formType" value="hdInput">文本框
+        <input type="radio" v-model="formType" value="hdTextarea">文本域
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script type="text/x-template" id="hdList">
+       
+    </script>
+
+    <script>
+        var hdInput = {
+            template: `<h2><input type="text"></h2>`
+        };
+        var hdTextarea = {
+            template: `<h2>
+                <textarea></textarea>
+                </h2>`
+        };
+        var app = new Vue({
+            el: '#app',
+            data: {
+              formType: 'hdInput'
+            },
+            components: {
+                hdInput,
+                hdTextarea
+            }
+        })
+    </script>
+</body>
+</html>

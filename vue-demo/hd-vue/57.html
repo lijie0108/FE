@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <router-link to="/about">内容</router-link>
+        <router-link to="/">主页</router-link>
+        <router-view></router-view>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.1.3/vue-router.js"></script>
+    <script>
+        let news = [
+            {id: 1, title: 'Vue', content: '这是内容若若若。。。。'},
+            {id: 2, title: 'Angular', content: '这是内容若若若。。。。'},
+            {id: 3, title: 'React', content: '这是内容若若若。。。。'}
+        ]
+
+        const Home = {
+            template: `
+            <div>
+               <li v-for="v in news"><a href="" @click.prevent="go(v.id)">{{v.title}}</a></li>
+                </div>
+            `,
+            data() {
+                return {
+                    news: news
+                }
+            },
+            methods: {
+                go(id) {
+                    // 写业务逻辑
+                    // this.$router.push('/content/1');
+                    this.$router.push({name: 'content', params: {id}});
+                    // this.$router.replace({name: 'content', params: {id}});
+                }
+            }
+        }
+
+        const content = {
+            template: `
+            <div>
+                {{news.content}}
+                <a href="" @click.prevent="go">back</a>
+                </div>
+            `,
+            data() {
+                return {
+                    news: {}
+                }
+            },
+            mounted() {
+                this.news = news[this.$route.params.id-1]
+            },
+            methods: {
+                go() {
+                    this.$router.go(-1);
+                }
+            }
+        }
+
+        const router = new VueRouter({
+            routes: [
+                {path: '/', component: Home},
+                {path: '/content/:id', component: content, name: 'content'},
+                // {path: '/about', redirect: {name: 'content', params: {id: 3}}},
+                {path: '/content/3', alias: ['/about']}
+            ]
+        })
+        var app = new Vue({
+            el: '#app',
+            router
+        })
+    </script>
+</body>
+</html>

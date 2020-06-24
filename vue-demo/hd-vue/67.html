@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <Lists></Lists>
+        <Cart></Cart>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.1.3/vue-router.js"></script>
+    <script src="https://unpkg.com/vuex@3.4.0/dist/vuex.js"></script>
+
+    <script>
+        let store = new Vuex.Store({
+            state: {
+                totalPrice: 100,
+                goods: [
+                    {id: 1, title: 'iphone 7plus', price: '1000', num: 3},
+                    {id: 2, title: 'iphone 8plus', price: '2000', num: 2},
+                ]
+            },
+            getters: {
+                totalPrice: state => {
+                    let totalPrice = 0;
+                    state.goods.forEach(element => {
+                        totalPrice += element.num * element.price
+                    });
+                    return totalPrice;
+                },
+                // 获取商品并计算每件商品的总价
+                goods(state) {
+                    let goods = state.goods;
+                    goods.forEach(v => {
+                        v.totalPrice = v.num * v.price
+                    })
+                    return goods;
+                }
+            },
+            mutations: {
+                // 删除购物车中的商品
+                del(state, param) {
+                    console.log('99999', state, param)
+                    let k;
+                    for(let i = 0; i < state.goods.length; i++) {
+                        if(state.goods[i].id === param.id) {
+                            k = i;
+                            break;
+                        }
+                    }
+                    state.goods.splice(k, 1)
+                },
+                setGoods(state, param) {
+                    state.goods = param.goods
+                }
+            },
+            actions: {
+                loadGoods(store) {
+                    axios.get('73.php').then(function (res) {
+                        console.log('res', res);
+                        store.commit('setGoods', {goods: res.data})
+                    })
+                }
+            }
+        })
+        const Cart = {
+            template: `
+            <div>
+                总价：{{totalPrice}}
+            </div>
+            `,
+            computed: {
+                totalPrice() {
+                    return this.$store.getters.totalPrice
+                }
+            }
+        }
+        const Lists = {
+            template: `
+            <div>
+                <div v-if="!goods.length">无数据</div>
+            <div v-if="goods.length">
+                <table>
+            <tr>
+                <th>编号</th>
+                <th>名称</th>
+                <th>价格</th>
+                <th>数量</th>
+                <th>总计</th>
+                <th>操作</th>
+            </tr>
+            <tr v-for="item in goods">
+                <td>{{item.id}}</td>
+                <td>{{item.title}}</td>
+                <td>{{item.price}}</td>
+                <td><input type="text" v-model="item.num" /></td>
+                <td>{{item.totalPrice}}</td>
+                <td><button @click="del(item.id)">删除</button></td>
+            </tr>
+        </table>
+            </div>
+            </div>
+            `,
+            computed: {
+                goods() {
+                    return this.$store.getters.goods
+                }
+            },
+            methods: {
+                del(id) {
+                    this.$store.commit('del', {
+                        id,
+                    }) 
+                }
+            }
+        }
+        var app = new Vue({
+            el: '#app',
+            components: {
+                Lists,
+                Cart
+            },
+            mounted() {
+                this.$store.dispatch('loadGoods');
+            },
+            store
+        })
+    </script>
+</body>
+</html>

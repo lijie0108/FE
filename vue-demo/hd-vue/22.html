@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+      <div @click.self="box" :style="{border: '2px solid red'}">
+        <a href="http://www.baidu.com" @click.prevent.stop="links">百度</a>
+        <a href="http://www.baidu.com" @click.prevent="links">百度</a>
+      </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                
+            },
+            methods: {
+                links() {
+                    alert('baidu.com')
+                },
+                box() {
+                    alert('div');
+                }
+            }
+        })
+    </script>
+</body>
+</html>

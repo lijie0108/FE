@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+     <hd-slider></hd-slider>
+     <hd-slider></hd-slider>
+     <hd-news1></hd-news1>
+     <hd-news2></hd-news2>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+
+    <script>
+         Vue.component('hd-slider', {
+            template: '<h1>baidu.com</h1>'
+         })
+
+         var hdNews2 = {
+             template: '<h2> world!</h2>'
+         }
+        var app = new Vue({
+            el: '#app',
+            data: {
+               
+            },
+            components: {
+                hdNews1: {
+                    template: '<h2>Hello</h2>'
+                },
+                hdNews2
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+       <button @click="type = !type">切换</button>
+       <transition name="hd">
+        <h1 v-if="type">www.baidu.com</h1>
+       </transition>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+              type: true
+            }
+        })
+    </script>
+    <style>
+        @keyframes show-in {
+            from {
+                transform: translate(100px, 0);
+            }
+            to {
+                transform: translate(0, 0)
+            }
+        }
+
+        @keyframes show-out {
+            from {
+                transform: translate(0, 0);
+            }
+            to {
+                transform: translate(100px, 0)
+            }
+        }
+
+        .hd-enter-active {
+            animation: show-in 1s;
+            transition: all 1s;
+        }
+        .hd-leave-active {
+            animation: show-out 1s;
+            transition: all 1s;
+        }
+        .hd-enter, .hd-leave-to {
+            opacity: 0;
+        }
+     </style>
+</body>
+</html>

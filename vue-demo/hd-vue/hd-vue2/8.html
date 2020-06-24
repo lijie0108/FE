@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>解决IDE不识别ES6语法的问题</title>
+</head>
+<body>
+    <div id="app">
+      <input type="text" v-model="n1">
+      <input type="text" v-model="n2">
+      <input type="text" v-model="sum">
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                n1: 1,
+                n2: 2
+            },
+            computed: {
+              sum() {
+                return (+this.n1) + (+this.n2)
+              }
+            }
+        })
+    </script>
+</body>
+</html>

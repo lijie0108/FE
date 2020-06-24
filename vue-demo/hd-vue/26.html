@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <form action="">
+            <label for="">标题</label>
+            <input type="text" v-model="field.title">
+            <br>
+            <label for="">点击数</label>
+            <input type="text" v-model="field.click">
+            <br>
+            <label for="">链接</label>
+            <input type="text" v-model="field.url">
+            <br>
+            <label for="">摘要</label>
+            <textarea name="" id="" cols="30" rows="10" v-model="field.desc"></textarea>
+        </form>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        // sort和filter
+        var app = new Vue({
+            el: '#app',
+            data: {
+                field: {
+                    title: '今天',
+                    click: 399,
+                    url: 'http://www.baidu.com',
+                    desc: 'aaaaaaaa'
+                }
+            },
+            methods: {
+            }
+        })
+    </script>
+</body>
+
+</html>

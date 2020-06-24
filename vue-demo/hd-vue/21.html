@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+      <form action="" @submit="post('ss', $event)">
+          {{times}}
+          <button>提交</button>
+      </form>
+      <form action="" @submit.prevent="posts('ss', $event)">
+        {{times}}
+        <button>提交</button>
+    </form>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                times: new Date()
+            },
+            methods: {
+                post(num, event) {
+                    console.log('99999', num, event)
+                    event.preventDefault();
+                },
+                posts(num, event) {
+                    alert('1111', num);
+                }
+            }
+        })
+    </script>
+</body>
+</html>

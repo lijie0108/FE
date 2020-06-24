@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <bs-panel>
+            开源框架
+            <h1 slot="header">Vue</h1>
+            <div slot="body">Vue是一个渐进的前端库</div>
+            <bs-input title="标题" value="内容讷讷呢" slot="body"></bs-input>
+        </bs-panel>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script type="text/x-template" id="bsPanel">
+        <div>
+            <slot>没有传递内容</slot>
+            <slot name="header">没有传递内容</slot>
+            <h2>
+                <slot name="body">没有传递内容</slot>
+            </h2>
+        </div>
+    </script>
+
+    <script type="text/x-template" id="bsInput">
+        <div>
+            {{title}}
+            <input type="text" :value="value">
+        </div>
+    </script>
+    <script>
+        // String Number Boolean Function Object Array
+        var bsPanel = {
+            template: '#bsPanel'
+        }
+        var bsInput = {
+            template: '#bsInput',
+            props: ['title', 'value']
+        }
+        var app = new Vue({
+            el: '#app',
+            data: {
+               
+            },
+            components: {
+                bsPanel,
+                bsInput
+            }
+        })
+    </script>
+</body>
+
+</html>

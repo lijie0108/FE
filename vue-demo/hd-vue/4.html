@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        {{hd}}
+        <h1 v-text="hd"></h1>
+        {{hs}}
+        <h3 v-html="hs"></h3>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                hd: '思思',
+                hs: '<h1 style="color: #ddd">sssss</h1>'
+            }
+        })
+    </script>
+</body>
+</html>

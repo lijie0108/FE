@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <hd-news2 :goods.sync="goods"></hd-news2>
+        总价： {{totalPrice}}元
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script type="text/x-template" id="hdNews">
+       <table border="1">
+           <tr>
+               <th>商品名称</th>
+               <th>商品价格</th>
+               <th>商品数量</th>
+           </tr>
+           <tr v-for="(v, k) in goods">
+               <td>{{v.title}}</td>
+               <td>{{v.price}}</td>
+               <td><input type="text" v-model="v.num"></td>
+           </tr>
+       </table>
+    </script>
+    <script>
+        // String Number Boolean Function Object Array
+        var hdNews2 = {
+            template: '#hdNews',
+            props: ['goods'],
+            data() {
+                return {
+                   
+                }
+            }
+        }
+        var app = new Vue({
+            el: '#app',
+            data: {
+                goods: [
+                    {title: 'iphone7', price: '100', num: 1},
+                    {title: 'iphone8', price: '200', num: 1},
+                    {title: 'iphone9', price: '300', num: 1}
+                ]
+            },
+            components: {
+                hdNews2
+            },
+            computed: {
+                totalPrice() {
+                    let sum = 0;
+                    this.goods.forEach(element => {
+                        sum += element.num * element.price
+                    });
+                    return sum;
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

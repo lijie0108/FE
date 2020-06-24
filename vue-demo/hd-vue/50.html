@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div id="app">
+        <router-link to="/content">内容</router-link>
+        <router-link to="/home">主页</router-link>
+        <router-view></router-view>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.1.3/vue-router.js"></script>
+    <script>
+        const data =  [
+                        {id: 1, title: 'Vue', content: '这是内容。。。。。。。。。'},
+                        {id: 2, title: 'Angular', content: '这是内容。。。。。。。。。'},
+                        {id: 3, title: 'React', content: '这是内容。。。。。。。。。'}
+                    ];
+         const home = {
+            template: `
+            <div>
+               <ul>
+                <li v-for="v in news">
+                    <router-link :to="{name: 'content', params: {id: v.id}}">{{v.title}}</router-link>
+                    </li>
+                </ul>
+        </div>
+            `,
+            data() {
+                return {
+                    news: data
+                }
+            }
+        }
+        const content = {
+            template: `
+            <div>
+                <h1>{{field.title}}</h1>
+                <p>{{field.content}}</p>
+                <router-link to="/">返回首页</route-link>
+        </div>
+            `,
+            data() {
+                return {
+                    field: {}
+                }
+            },
+            mounted() {
+                this.field = data[this.$route.params.id-1]
+            }
+        }
+        // 要把组件交给路由
+        // 默认参数
+        let route = new VueRouter({
+            routes: [
+                {
+                    path: '/',
+                    component: home
+                },
+                {
+                    path: '/content/:id',
+                    component: content,
+                    name: 'content'
+                }
+            ]
+        })
+        var app = new Vue({
+            el: '#app',
+            data: {
+
+            },
+            router: route
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <router-view></router-view>
+        <router-view class="news" name="news"></router-view>
+        <router-view class="news" name="slide"></router-view>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.1.3/vue-router.js"></script>
+    <script>
+        const Menu = {
+            template: `
+            <div>
+               Menu
+               <a href="">baidu</a>
+                </div>
+            `,
+        }
+
+        const News = {
+            template: `
+            <div>
+               News
+                </div>
+            `
+        }
+
+        const Slide = {
+            template: `
+            <div>
+               Slide
+                </div>
+            `
+        }
+
+        const router = new VueRouter({
+            routes: [
+                {path: '/home', components: {
+                    default: Menu,
+                    news: News,
+                    slide: Slide
+                }},
+            ]
+        })
+        var app = new Vue({
+            el: '#app',
+            router
+        })
+    </script>
+</body>
+</html>
+
+
+pc/aboutUs/index.js
+pc/auth/index.js
+pc/directStore/address.js
+pc/directStore/detail.js
+pc/directStore/index.js
+pc/directStore/service.js
+pc/message/detail.js
+pc/message/follow.js
+pc/message/hongniangDetail.js
+pc/message/index.js
+pc/message/reply.js
+pc/message/visit.js
+pc/myZhenai/index.js
+pc/qianxianTong/index.js
+pc/sweetMeeting/index.js
+pc/sweetMeetingQianxian/index.js
+pc/sweetQianxian/index.js
+pc/user/album.js
+pc/user/auth.js
+pc/user/avatar.js
+pc/user/baseInfo.js
+pc/user/detailInfo.js
+pc/user/heartWord.js
+pc/user/index.js
+pc/user/interest.js
+pc/user/marriageInfo.js
+pc/user/password.js
+pc/user/setting.js
+pc/user/spousePreference.js
+pc/user/verify.js
+pc/user/workLife.js
+
+
+
+zhenai.com/pc/portal/user
+zhenai.com/pc/portal/sweetQianxian
+zhenai.com/pc/portal/sweetMeetingQianxian
+zhenai.com/pc/portal/sweetMeeting
+zhenai.com/pc/portal/qianxianTong
+zhenai.com/pc/portal/myZhenai
+zhenai.com/pc/portal/message
+zhenai.com/pc/portal/auth

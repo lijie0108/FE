@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内容与属性中使用JavaScript表达式的方法</title>
+    <style>
+      .red1 {
+        color: red;
+      }
+      .red2 {
+        color: palevioletred;
+      }
+    </style>
+</head>
+<body>
+    <div id="app">
+      {{n+1}}
+      <h2 v-once>{{n}}</h2>
+      <h2 :class="'red' + n">Hello World</h2>
+      <input type="text" v-model="n">
+      <br>
+      <input type="radio" v-model="n" value="1">红1
+      <input type="radio" v-model="n" value="2">红2
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                n: 1
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hd1 {
+            color: red;
+        }
+        .hd2 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        {{n + 4}}
+        <h1 :class="'hd'+n">你好</h1>
+        <input type="text" v-model="n">
+        <input type="radio" value="1" v-model="n">男
+        <input type="radio" value="2" v-model="n">女
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                n: 1
+            }
+        })
+    </script>
+</body>
+</html>

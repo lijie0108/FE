@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error {
+            color: red;
+        }
+    
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+       <ul>
+           <li v-for="v in news">
+               <span :class="v.status? 'success': 'error'">{{v.title}}</span>
+               <button v-if="v.status" @click="changeStatus(v, false)">删除</button>
+               <button v-if="!v.status" @click="changeStatus(v, true)">恢复</button>
+            </li>
+       </ul>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+               news: [
+                   {title: '后盾人', status: true},
+                   {title: 'houdunren.com', status: true},
+               ]
+            },
+            methods: {
+                changeStatus(item, status) {
+                    item.status = status;
+                }
+            }
+        })
+    </script>
+</body>
+</html>

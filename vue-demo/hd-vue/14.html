@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+      <table>
+          <tr>
+              <th>序号</th>
+              <th>编号</th>
+              <th>标题</th>
+          </tr>
+          <tr v-for="(field, index) in news" :key="field.id">
+              <td>{{index+1}}</td>
+              <td>{{field.id}}</td>
+              <td>{{field.title}}</td>
+          </tr>
+      </table>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                news: [
+                    {id: 1, title: 'aaaaaaaa'},
+                    {id: 2, title: 'bbbbbbbb'}
+                ]
+            }
+        })
+    </script>
+</body>
+</html>

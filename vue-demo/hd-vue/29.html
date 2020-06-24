@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+       <input type="radio" v-model="type" value="drash">草稿
+       <input type="radio" v-model="type" value="promote">发布
+       <br>
+       {{type}}
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+               type: 'promote'
+            },
+            methods: {
+            }
+        })
+    </script>
+</body>
+
+</html>

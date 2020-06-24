@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+       <ul>
+           <li v-for="(v, k) in comments" @click="remove(v.id)">{{v.id}} - {{v.content}}</li>
+       </ul>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                comments: [
+                    {
+                        id: 1,
+                        content: 'Vue'
+                    },
+                    {
+                        id: 4,
+                        content: 'React'
+                    },
+                    {
+                        id: 3,
+                        content: 'Angular'
+                    },
+                    {
+                        id: 2,
+                        content: 'jQuery'
+                    }
+                ],
+            },
+            methods: {
+                remove(k) {
+                    console.log(k);
+                }
+            }
+        })
+    </script>
+</body>
+</html>

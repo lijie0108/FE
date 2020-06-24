@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+       <ul>
+           <li v-for="(v, k) in comments">{{v.id}} - {{v.content}} <button @click="remove(k)">删除</button></li>
+       </ul>
+       <textarea name="" id="" cols="30" rows="10" v-model="current"></textarea>
+       <button v-on:click="push('end')">发表到前面</button>
+       <button v-on:click="push('pre')">发表到后面</button>
+       <button v-on:click="del('pre')">删除最后一条</button>
+       <button v-on:click="del('end')">删除第一条</button>
+       <button v-on:click="sort">按照编号排序</button>
+       <button v-on:click="reverse">反转</button>
+       <br>
+       <input type="text" v-on:keyup.enter="search" v-model="search_content">
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var a = [1, 2];
+        a.push(3);
+        console.log(a);
+        
+        var app = new Vue({
+            el: '#app',
+            data: {
+                comments: [
+                    {
+                        id: 1,
+                        content: 'Vue'
+                    },
+                    {
+                        id: 4,
+                        content: 'React'
+                    },
+                    {
+                        id: 3,
+                        content: 'Angular'
+                    },
+                    {
+                        id: 2,
+                        content: 'jQuery'
+                    }
+                ],
+                current: '',
+                search_content: ''
+            },
+            methods: {
+                push(type) {
+
+                    let content = {content: this.current}
+                    switch(type) {
+                        case 'end':
+                            this.comments.push(content);
+                            break;
+                        case 'pre':
+                            this.comments.unshift(content);
+                            break;
+                    }
+                    this.current = ''
+                },
+                del(type) {
+                    switch(type) {
+                        case 'end':
+                            this.comments.pop();
+                            break;
+                        case 'pre':
+                            this.comments.shift();
+                            break;
+                    } 
+                },
+                remove(k) {
+                    this.comments.splice(k, 1)
+                },
+                sort() {
+                    this.comments.sort(function(a, b) {
+                        return a.id > b.id
+                    })
+                    console.log('8888888', this.comments)
+                },
+                reverse() {
+                    this.comments.reverse();
+                },
+                search() {
+                    this.comments = this.comments.filter(function(item) {
+                        var reg = new RegExp(this.search_content, 'i');
+                        return reg.test(item.content)
+                    })
+                    console.log(this.comments)
+                }
+            }
+        })
+    </script>
+</body>
+</html>

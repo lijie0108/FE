@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="(value, key, index) in user">
+                {{index}} - {{key}} - {{value}}
+            </li>
+        </ul>
+
+        <div v-for="v in 10">{{v}}</div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                user: {
+                    name: 'jie',
+                    age: '18',
+                    sex: 'girl'
+                }
+            }
+        })
+    </script>
+</body>
+</html>

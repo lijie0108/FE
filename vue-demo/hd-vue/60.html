@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- <router-link to="/content">内容</router-link>
+        <router-link to="/home">主页</router-link> -->
+        <router-view></router-view>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.1.3/vue-router.js"></script>
+    <script>
+        let news = [
+            {id: 1, title: 'Vue', content: '这是内容若若若。。。。'},
+            {id: 2, title: 'Angular', content: '这是内容若若若。。。。'},
+            {id: 3, title: 'React', content: '这是内容若若若。。。。'},
+        ]
+
+        const Home = {
+            template: `
+            <div>
+                <router-link v-for="v in news" :to="{name: 'content', params: {id: v.id}}">{{v.title}}
+                    </router-link>
+                </div>
+            `,
+            data() {
+                return {
+                    news: news
+                }
+            }
+        }
+
+        const content = {
+            template: `
+            <div>
+                {{news.content}}
+                </div>
+            `,
+            data() {
+                return {
+                    news: {}
+                }
+            },
+            mounted() {
+                this.news = news[this.$route.params.id-1]
+            }
+        }
+
+        const NotFound = {
+            template: `<div>Not Found</div>`
+        }
+
+        const router = new VueRouter({
+            routes: [
+                {path: '/', component: Home},
+                {path: '/content/:id', component: content, name: 'content'},
+                {path: '*', component: NotFound}
+            ]
+        })
+        var app = new Vue({
+            el: '#app',
+            router
+        })
+    </script>
+</body>
+</html>

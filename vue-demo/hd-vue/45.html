@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+      <span v-star="color">Test</span>
+      <input type="text" v-model="color" v-focus>
+      <h1 v-hide="false">hdsss</h1>
+      <!-- <input type="text" v-model="title" v-bd.focus="title"> -->
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        /*
+        指令的钩子
+        bind
+        inserted
+        update
+        */
+    //    Vue.directive('star', {
+    //        bind(el, bind){
+    //            console.log(bind);
+    //        }
+    //    })
+
+    //    Vue.directive('bd', {
+    //        update(el, bind) {
+    //         console.log(bind)
+    //        } 
+    //    })
+        var app = new Vue({
+            el: '#app',
+            data: {
+              title: 'baidu.com',
+              color: 'red'
+            },
+            directives: {
+                // star: {
+                //     bind(el, bind) {
+                //         console.log(bind);
+                //         let color = bind.value ? bind.value:'red';
+                //         el.style.cssText="color:" + color;
+                //     }
+                // }
+                
+                // 同时作用于绑定和更新
+                star(el, bind) {
+                        console.log(bind);
+                        let color = bind.value ? bind.value:'red';
+                        el.style.cssText="color:" + color;
+                },
+                // bind update
+                focus: {
+                    inserted(el, bind) {
+                        el.focus();
+                    }
+                },
+                hide(el, bind) {
+                    console.log(bind);
+                    if(bind.value) {
+                        el.style.cssText = "display: none"
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>

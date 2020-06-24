@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+      <hd-list :data="news">
+        <template scope="v">
+            <li><h1>{{v.field.title}}</h1></li>
+        </template>
+      </hd-list>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script type="text/x-template" id="hdList">
+       <ul>
+           <slot v-for="v in data" :field="v"></slot>
+       </ul>
+    </script>
+
+    <script>
+        var hdList = {
+            template: '#hdList',
+            props: ['data']
+        }
+        var app = new Vue({
+            el: '#app',
+            data: {
+               news: [
+                   {title: 'vue'},
+                   {title: 'angular'}
+               ]
+            },
+            components: {
+                hdList
+            }
+        })
+    </script>
+</body>
+</html>

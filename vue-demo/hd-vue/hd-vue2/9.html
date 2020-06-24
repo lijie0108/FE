@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch监听属性变化实现类似百度搜索栏的作用</title>
+</head>
+<body>
+    <div id="app">
+      <input type="text" v-model="word">
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data() {
+              return {
+                word: ''
+              }
+            },
+            watch: {
+              word: _.debounce(function(newV, oldV) {
+                console.log(newV, oldV)
+              }, 500)
+            }
+        })
+    </script>
+</body>
+</html>

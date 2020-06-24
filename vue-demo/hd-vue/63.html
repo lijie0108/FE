@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <Lists></Lists>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.1.3/vue-router.js"></script>
+    <script src="https://unpkg.com/vuex@3.4.0/dist/vuex.js"></script>
+
+    <script>
+        let store = new Vuex.Store({
+            state: {
+                totalPrice: 100,
+                goods: [
+                    {id: 1, title: 'iphone 7plus', price: '7999', num: 3},
+                    {id: 2, title: 'iphone 8plus', price: '8999', num: 2},
+                ]
+            },
+            getters: {
+                totalPrice: state => {
+                    let totalPrice = 0;
+                    state.goods.forEach(element => {
+                        totalPrice += element.num * element.price
+                    });
+                    return totalPrice;
+                },
+                // 获取商品并计算每件商品的总价
+                goods(state) {
+                    let goods = state.goods;
+                    goods.forEach(v => {
+                        v.totalPrice = v.num * v.price
+                    })
+                    return goods;
+                }
+            }
+        })
+        const Lists = {
+            template: `
+            <div>
+                <table>
+            <tr>
+                <th>编号</th>
+                <th>名称</th>
+                <th>价格</th>
+                <th>数量</th>
+                <th>总计</th>
+            </tr>
+            <tr v-for="item in goods">
+                <td>{{item.id}}</td>
+                <td>{{item.title}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.num}}</td>
+                <td>{{item.totalPrice}}</td>
+            </tr>
+        </table>
+                <br />总价：{{totalPrice}}</div>
+            `,
+            computed: {
+                totalPrice() {
+                    // return this.$store.state.totalPrice
+                    return this.$store.getters.totalPrice
+                },
+                goods() {
+                    return this.$store.getters.goods
+                }
+            }
+        }
+        var app = new Vue({
+            el: '#app',
+            components: {
+                Lists
+            },
+            store
+        })
+    </script>
+</body>
+</html>

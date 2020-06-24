@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+      <input type="text" @keyup.enter="keyEvent">
+      <input type="text" @keyup.tab="keyEvent">
+      <input type="text" @keyup.esc="keyEvent">
+      <input type="text" @keyup.space="keyEvent">
+      <input type="text" @keyup.ctrl.65="keyEvent">
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                 
+            },
+            methods: {
+                keyEvent() {
+                    console.log('999999999')
+                }
+            }
+        })
+    </script>
+</body>
+</html>

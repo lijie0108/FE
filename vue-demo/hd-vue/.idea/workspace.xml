@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81161f51-1ed0-41c3-bbca-879846237aae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../book/hotpage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book/hotpage/styles/styles/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book/hotpage/styles/styles/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book/hotpage/styles/styles/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book/hotpage/styles/styles/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/01-module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/02-fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/03-buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/04-http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/05-kpress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/images/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node01/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/knode/node02/telnet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../node/pnode/01_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/kreact/day2/my-app/src/components/AntdTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/kreact/day2/my-app/src/components/Composition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/kreact/day2/my-app/src/components/ContextTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/kreact/day2/my-app/src/components/Hoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/kreact/day2/my-app/src/components/HookTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/kreact/day2/my-app/src/components/KForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/pwebpack/webpack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book/JavaScript基础教程/chapter02/01-脚本放在哪里.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../book/JavaScript基础教程/chapter02/01-脚本放在哪里.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book/JavaScript基础教程/chapter03/01-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../book/JavaScript基础教程/chapter03/01-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/kreact/day1/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/kreact/day1/my-app/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1d5BL2BsUjVD9bMD06Kuk54iqlH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81161f51-1ed0-41c3-bbca-879846237aae" name="Default Changelist" comment="" />
+      <created>1591705013717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591705013717</updated>
+      <workItem from="1591705015276" duration="143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1591705031558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591705031558" />
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="v in stus">
+                {{v.name}} - {{v.sex}}
+            </li>
+        </ul>
+        <input type="radio" v-model="type" value="all"> ALL
+        <input type="radio" v-model="type" value="girl"> 女孩
+        <input type="radio" v-model="type" value="boy"> 男孩
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+               user: [
+               {name: '小明',sex: 'boy'},
+               {name: '小花',sex: 'girl'},
+               {name: '小李',sex: 'girl'},
+               {name: '小王',sex: 'boy'}
+               ],
+               type: 'all'
+            },
+            computed: {
+                stus() {
+                    if(this.type === 'all') {
+                        return this.user;
+                    }else {
+                        return this.user.filter(v => {
+                            return v.sex == this.type
+                        })
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>

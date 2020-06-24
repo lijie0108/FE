@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {
+            color: red;
+        }
+        .green {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1 v-bind:class="hd">aaaaaaa</h1>
+        <h1 :class="'hd'">aaaaaaa</h1>
+        <h1 v-bind:class="red">ccccccc</h1>
+        <h1 :class="'green'">dddddd</h1>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                title: '思思',
+                hd: 'red',
+                red: 'red',
+            }
+        })
+    </script>
+</body>
+</html>

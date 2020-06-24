@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <hd-news2 :show-del-button="0"></hd-news2>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script type="text/x-template" id="hdNews">
+        <div>
+            {{showDelButton}}
+            <ul>
+                <li v-for="(v, k) in lists">{{v.title}} <button @click="del(k)" v-if="showDelButton">删除</button></li>
+            </ul>
+        </div>
+    </script>
+    <script>
+        // String Number Boolean Function Object Array
+        var hdNews2 = {
+            template: '#hdNews',
+            props: {
+                showDelButton: {
+                    type: [Boolean, Number],
+                    default: false,
+                    required: true
+                },
+                // showDelButton: {
+                //     validator(v) {
+                //         return v === 1 || v === 0
+                //     }
+                // },
+                lists: {
+                    type: Array,
+                    default() {
+                        return [{title: 'vue'}]
+                    }
+                }
+            },
+            data() {
+                return {
+                   
+                }
+            },
+            methods: {
+                del(k) {
+                    this.news.splice(k, 1);
+                }
+            }
+        }
+        var app = new Vue({
+            el: '#app',
+            data: {
+                news: [
+                { title: 'vue' },
+                { title: 'react' },
+                { title: 'angular' }
+            ]
+            },
+            components: {
+                hdNews2
+            }
+        })
+    </script>
+</body>
+
+</html>

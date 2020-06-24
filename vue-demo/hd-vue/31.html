@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+       <label for="">栏目</label>
+       <select name="" id="" v-model.number="cid">
+           <option value="">==请选择栏目==</option>
+           <option v-for="v in category" :value="v.id">{{v.title}}</option>
+       </select>
+       <label for="">点击数</label>
+       <input type="number" v-model.number="click">点击
+       <input type="text" v-model.trim="click">点击
+       <input type="text" v-model.trim.lazy="click">点击
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+               cid: '',
+               category: [
+                   {cid: 1, title: 'Vue'},
+                   {cid: 2, title: 'React'},
+                   {cid: 3, title: 'Angular'},
+                   {cid: 4, title: 'jQuery'},
+               ],
+               click: 0
+            },
+            watch: {
+                click(nV, oV) {
+                    console.log(nV, oV);
+                    console.log(nV.length);
+                }
+            }
+        })
+    </script>
+</body>
+</html>

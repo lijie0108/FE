@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+       <ul>
+           <li v-for="v in comments">{{v.content}}</li>
+       </ul>
+       <textarea name="" id="" cols="30" rows="10" v-model="current"></textarea>
+       <button v-on:click="push('end')">发表到前面</button>
+       <button v-on:click="push('pre')">发表到后面</button>
+       <button v-on:click="del('pre')">删除最后一条</button>
+       <button v-on:click="del('end')">删除第一条</button>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var a = [1, 2];
+        a.push(3);
+        console.log(a);
+        var app = new Vue({
+            el: '#app',
+            data: {
+                comments: [
+                    {
+                        content: '1111'
+                    },
+                    {
+                        content: '2222'
+                    }
+                ],
+                current: ''
+            },
+            methods: {
+                push(type) {
+
+                    let content = {content: this.current}
+                    switch(type) {
+                        case 'end':
+                            this.comments.push(content);
+                            break;
+                        case 'pre':
+                            this.comments.unshift(content);
+                            break;
+                    }
+                    this.current = ''
+                },
+                del(type) {
+                    switch(type) {
+                        case 'end':
+                            this.comments.pop();
+                            break;
+                        case 'pre':
+                            this.comments.shift();
+                            break;
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>

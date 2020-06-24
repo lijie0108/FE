@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-model="n1">+
+        <input type="text" v-model="n2">=
+        {{sum}}
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                n1: 0,
+                n2: 1
+            },
+            computed: {
+                sum() {
+                    return this.n1*1 + this.n2*1
+                }
+            }
+        })
+    </script>
+</body>
+</html>
