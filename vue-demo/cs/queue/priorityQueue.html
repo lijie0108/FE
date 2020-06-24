@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 封装优先级队列
+      function PriorityQueue() {
+        // 内部类
+        function QueueElememt(element, priority) {
+          this.element = element;
+          this.priority = priority;
+        }
+        // 封装属性
+        this.items = [];
+        // 实现进队操作
+        this.enqueue = function (element, priority) {
+          let queueElement = new QueueElememt(element, priority);
+          // 判断队列是否为空
+          if (!this.items.length) {
+            this.items.push(queueElement);
+          } else {
+            let added = false;
+            for (let i = 0; i < this.items.length; i++) {
+              if (queueElement.priority < this.items[i].priority) {
+                this.items.splice(i, 0, queueElement);
+                added = true;
+                break;
+              }
+            }
+            if (!added) {
+              this.items.push(queueElement);
+            }
+          }
+        };
+        this.dequeue = function () {
+          return this.items.shift();
+        };
+        this.front = function () {
+          return this.items[0];
+        };
+        this.isEmpty = function () {
+          return this.items.length === 0;
+        };
+        this.size = function () {
+          return this.items.length;
+        };
+        this.toString = function () {
+          return this.items;
+        };
+      }
+      // 测试代码
+      let pq = new PriorityQueue();
+      pq.enqueue('abc', 111);
+      pq.enqueue('cba', 200);
+      pq.enqueue('nba', 50);
+      pq.enqueue('nba', 66);
+      console.log(pq.toString());
+    </script>
+  </body>
+</html>

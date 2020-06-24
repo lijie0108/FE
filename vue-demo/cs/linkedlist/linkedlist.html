@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // 封装链表的类
+    function LinkedList() {
+      // 属性
+      this.head = null;
+      this.length = 0;
+      // 内部类
+      function Node(data) {
+        this.data = data;
+        this.next = null;
+      }
+      // 1.追加方法
+      this.append = function(data) {
+        // 判断是否添加的是第一个节点
+        var newNode = new Node(data);
+        if(this.length === 0) {
+          this.head = newNode;
+        }else {
+          var current = this.head;
+          while(current.next) {
+            current = current.next;
+          }
+          current.next = newNode;
+        }
+        this.length++;
+      }
+      this.insert = function(position, data) {
+        if(position < 0 || position > this.length) {
+          return false;
+        }
+        var newNode = new Node(data);
+        if(position === 0) {
+          newNode.next = this.head;
+          this.head = newNode;
+        }else {
+          var index = 0;
+          var current = this.head;
+          var previous = null;
+          while(index++ < position) {
+            previous = current;
+            current = current.next;
+          }
+          previous.next = newNode;
+          newNode.next = current;
+        }
+        this.length += 1;
+        return true;
+      }
+      this.get = function(position) {
+        // 1.越界判断
+        if(position < 0 || position > this.length -1) {
+          return false;
+        }
+        // 2.获取对应的数据
+        var current = this.head;
+        var index = 0;
+        while(index < position) {
+          current = current.next;
+          index++;
+        }
+        return current.data;
+      }
+      this.indexOf = function(data) {
+        var current = this.head;
+        var index = 0;
+        while(current) {
+          if(current.data === data) {
+            return index;
+          }
+          current = current.next;
+          index++;
+        }
+        return -1;
+      }
+      this.update = function(position, data) {
+         // 1.越界判断
+         if(position < 0 || position > this.length -1) {
+          return false;
+        }
+        // 2.获取对应的数据
+        var current = this.head;
+        var index = 0;
+        while(index < position) {
+          current = current.next;
+          index++;
+        }
+        current.data = data;
+      }
+      this.removeAt = function(position) {
+        if(position < 0 || position > this.length-1) {
+          return false;
+        }
+        if(position === 0) {
+          var current = this.head;
+          this.head = current.next;
+        }else {
+          var current = this.head;
+          var previous = null;
+          var index = 0;
+          while(index++ < position) {
+            previous = current;
+            current = current.next;
+          }
+          previous.next = current.next;
+        }
+        this.length--;
+      }
+      this.remove = function(data) {
+        var position = this.indexOf(data);
+        this.removeAt(position);
+      }
+      this.isEmpty = function() {
+        return this.length === 0;
+      }
+      this.size = function() {
+        return this.length;
+      }
+      this.toString = function() {
+        var current = this.head;
+        var listString = '';
+        while(current) {
+          listString += current.data + " ";
+          current = current.next;
+        }
+        return listString;
+      }
+    }
+
+    var list = new LinkedList();
+    list.append('abc');
+    list.append('cba');
+    list.append('nba');
+    list.insert(0, 'aaa');
+    console.log('list', list)
+    list.insert(2, 'bbb');
+    list.insert(5, 'ccc');
+    console.log('77777',list)
+    console.log('22222', list.get(0))
+    console.log(list.indexOf('bbb'))
+    console.log(list)
+    list.removeAt(2);
+    console.log(list.size())
+  </script>
+</body>
+</html>
